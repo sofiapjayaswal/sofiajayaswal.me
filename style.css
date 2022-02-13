@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Courier";
+}
+html{
+    height:100vh;
+}
+body{
+    height:100%;
+}
+.background{
+    width:100%;
+    height:100%;
+    background-image:url("backgroundDali.png");
+    background-size:cover;
+}
+.navigation{
+    float:right;
+    padding:20px;
+}
+.logo{
+    width:25%;
+    top:20px;
+}
+.navigation l1{
+    padding:20px;
+}
+
+.navigation l1 a{
+    text-decoration:none;
+    color:#700482;
+    border-bottom-color:#f55ca7;
+    border-bottom-style:solid;
+}
+.navigation l1 a:hover{
+    color:#f55ca7;
+    border-bottom-color:#700482;
+}
+.bigintro{
+    padding:200px;
+    color:#700482;
+    text-align:center;
+    font-size:50px;
+}
+.contact a{
+    color:#700482;
+}
+.contact a:hover{
+    color: #f55ca7;
+}
+.contact{
+    text-align:center;
+    position:absolute;
+    width:100%;
+    top:80%;
+}
+.profpicture{
+    width:30%;
+    position:absolute;
+    top:20%;
+    left:5%;
+    border-style:solid;
+    border-width:medium;
+    border-color:#700482;
+}
+.intropara{
+    width:60%;
+    color:#700482;
+    position:absolute;
+    top:30%;
+    left:38%
+}
+.quote{
+    color:#700482;
+    text-align:center;
+    position:absolute;
+    border-style: dashed;
+    width:80%;
+    top:15%;
+    left:10%;
+    right:10%;
+}
+.description{
+    color:#700482;
+    text-align:center;
+    position:absolute;
+    width:60%;
+    top:32%;
+    left:20%;
+    right:20%;
+}
+.interest{
+    width:33%;
+}
+.interestimg{
+    width:100%;
+}
+.interest .text{
+    color: #700482;
+    position:absolute;
+    visibility:hidden;
+}
+.interest .cstext{
+    font-size:10px;
+    bottom:109px;
+    width:26%;
+}
+.interest .cofiredtext{
+    font-size:14px;
+    bottom:100px;
+    width:26%;
+}
+
+.interest .wgsstext{
+    font-size:11px;
+    bottom:120px;
+    width:26%;
+}
+.interest:hover .interestimg{
+    opacity:20%;
+}
+
+.interest:hover .text{
+    visibility: visible;
+}
+
+.linkedin{
+    width:4%;
+    position:absolute;
+    bottom:1%;
+    left:46%;
+}
+.emailimg{
+    width:4%;
+    position:absolute;
+    bottom: 1.5%;
+    right:46%;
+}
+
+.interests{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10%;
+    align-items: center;
+    position:absolute;
+    top:50%;
+    width:75%;
+    height:40%;
+    left:12.5%;
+
+}
